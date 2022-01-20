@@ -13,9 +13,6 @@ public class ShapeMain {
         Triangle triangle = new Triangle("MUNG TET DEN");
         triangle.rotate();
 
-        Amoeba amoeba = new Amoeba("HAPPY NEW YEAR");
-        amoeba.rotate();
-
 
 
     }
