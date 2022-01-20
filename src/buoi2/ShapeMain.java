@@ -1,19 +1,18 @@
 package buoi2;
 
+import java.nio.channels.NonWritableChannelException;
+
 public class ShapeMain {
     public static void main(String[] args) {
-        Tamgiac tamgiac = new Tamgiac();
-        Hinhvuong hinhvuong = new Hinhvuong();
-        Hinhtron hinhtron = new Hinhtron();
+        Square square = new Square("NHAC XUAN REMIX");
+        square.rotate();
 
-        hinhvuong.rotate();
-        hinhvuong.playSound();
+        Circle circle = new Circle("CON YEN DUA THOI");
+        circle.rotate();
 
-        hinhtron.rotatet();
-        hinhtron.playSound();
+        Triangle triangle = new Triangle("MUNG TET DEN");
+        triangle.rotate();
 
-        tamgiac.rotate();
-        tamgiac.playSound();
 
 
     }
